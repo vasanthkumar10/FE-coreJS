@@ -142,3 +142,5 @@ const pipe = (...functions) => {
 
 console.log(compose(fun1, fun2, fun3)(15));
 console.log(pipe(fun1, fun2, fun3)(15));
+
+// connect, mapStateToProps, mapDispatchToProps
